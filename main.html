@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Xristopher's Portfolio</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+</style>
+<script src=""></script>
+
+<body>
+
+    <div class="topnav">
+        
+        <a class="active" href="#hero-image">Home</a>
+        <a href="javascript:void(0);" onclick="scrollToElement('.about-section')">About Me</a>
+        <a href="javascript:void(0);" onclick="scrollToElement('.Work')">Work Experience</a>
+    </div>
+
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Xristopher Aliferis</h1>
+            <p>Software Engineer</p>
+            <a href="resume.pdf" download="resume" class="download-button">Resume</a>
+        </div>
+    </div>
+
+    <div class="about-section">
+      <h1>About Me</h1>
+      <p>Software Engineering student with a strong academic background and diverse work experiences ranging from research assistant roles to internships in machine learning and app development. Passionate about technology, problem-solving, and continuous learning. Recognized for academic excellence with honors such as the Dean's Honour List and the President’s Honor Roll.</p>
+      <img src="https://media.licdn.com/dms/image/C5603AQGDz_QWSjmbcQ/profile-displayphoto-shrink_800_800/0/1612892869859?e=2147483647&v=beta&t=ZJN-qUl17ikTh5vZcicRIu5bFNOGz7t0EayGS38siHw"
+            alt="LA" style="width:15%">
+      <!-- New Elements -->
+      <div class="skills-interests-container"> 
+      <div class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Language:</strong> Java, Python, C++, C#, JavaScript, HTML/CSS, Kotlin, XML</strong>></li>
+        <li><strong>Frameworks:</strong> React, Node.js, Flask, FastAPI, Apache Spark, FFmpeg </li>
+        <li><strong>Developer Tools:</strong> Databricks, Scrcpy, Google Cloud Platform, VS Code, Visual Studio, Microsoft Office</li>
+        <li><strong>Libraries:</strong> pandas, scikit-learn, Matplotlib, Natural Language Toolkit, NAudio</li>
+      </ul>
+      </div>
+    <div class="interests">
+      <h2>Interests</h2>
+      <ol>
+        <li><strong>Coding:</strong> I am very passionate about coding because of the endless possibilities it has to offer and the constant challenge and innovation involved.</li>
+        <li><strong>Sports:</strong> Since a young age I have had a great interest in sports wether it was playing them or watching them, especially when cheering for the Steelers in football and the Ottawa Senators in hockey.</li>
+        <li><strong>Travel:</strong> I have always loved travel, I hope to do more in the future however I have been inspired by the places I have already been!</li>
+      </ol>
+    </div>
+</div>
+      <!-- End of New Elements -->
+    
+      <!-- Existing Education Subsection -->
+      <h2 style="text-align:center">Education</h2>
+      <div class="education-container">
+          <div class="column">
+              <div class="card">
+                  <img src="https://resources.finalsite.net/images/f_auto,q_auto/v1613164961/cesi/lfvzvuljarovrns6gny6/Asbury-College-Logo-Google-Sheet-and-School-Profile.jpg" alt="University 1" style="width:100%">
+                  <div class="container">
+                      <h2>Ashbury College</h2>
+                      <p class="title">Highschool Degree</p>
+                      <p class="title">Class of '21</p>
+                  </div>
+              </div>
+          </div>
+        
+          <div class="column">
+              <div class="card">
+                  <img src="https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1406152200/aofcp9zxs2jebjquz4ef.png" alt="University 2" style="width:100%">
+                  <div class="container">
+                      <h2>Western University</h2>
+                      <p class="title">Software Engineering</p>
+                      <p class="title">2022-Present</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    <div class="Work">
+      
+      <h2 style="text-align:center">Work Experience</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="https://media.licdn.com/dms/image/C4D0BAQHiaTMCLNmBqw/company-logo_200_200/0/1591302991321?e=2147483647&v=beta&t=VWn8dPhlNGtBKbAodNZlWt4oRnQeNBkBCtAfTcOQVr4" alt="Jane" style="width:100%">
+            <div class="container">
+              <h2>Med-Eng </h2>
+              <p class="title">Software Engineering Student </p>
+              <p class="title">May - Aug 2023</p>
+              <p>
+                I designed a robust C# screen-mirroring application with a matching Android audio solution for their bombsuits, and leveraged Machine Learning at Med-Eng to analyze blast sensor data.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="data:image/png;base64,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" alt="Mike" style="width:100%">
+            <div class="container">
+              <h2>BDO Lixar</h2>
+              <p class="title">AppDev Intern</p>
+              <p class="title">Jun - Sept 2022</p>
+              <p>
+                I designed a React website integrated with a REST API, achieved high accuracy in machine learning predictions using the iris dataset, and expertly processed large datasets using NLTK and other tools.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="https://clutchco-static.s3.amazonaws.com/s3fs-public/logos/primecorp_property_management_logo.jpg?VersionId=FCuwgLe8IB_VDmO_plFfa6tn6dh7gYvk" alt="John" style="width:100%">
+            <div class="container">
+              <h2>Primecorp Property Management</h2>
+              <p class="title">Research Intern</p>
+              <p class="title">May - Aug 2020</p>
+              <p>
+                I utilized the Real Nex database to research and present real estate sales data, and gained hands-on experience in the real estate sales process through building tours, enhancing client engagement and efficiency.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-container">
+    <div style="text-align:center">
+        <h2>Contact Me</h2>
+    </div>
+    <form action="/action_page.php">
+        <div class="contact-row">
+            <div class="contact-column">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." class="contact-input">
+            </div>
+            <div class="contact-column">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." class="contact-input">
+            </div>
+            <div class="contact-column">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email.." class="contact-input">
+            </div>
+        </div>
+        <div class="contact-row">
+            <div class="contact-column">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." class="contact-textarea" style="height:170px"></textarea>
+            </div>
+        </div>
+        <div class="contact-row">
+            <div class="contact-column">
+                <input type="submit" value="Submit" class="contact-submit">
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+<div class="footer">
+  <div class="footer-left">
+      Xristopher Aliferis
+      <img src="https://www.pngkey.com/png/full/134-1340807_registered-trademark-registered-trademark-png-white.png" class="footer-logo">
+  </div>
+  <div class="footer-right">
+      <a href="https://www.linkedin.com/in/xristopher-aliferis/" target="_blank">
+          <img src="https://static.vecteezy.com/system/resources/previews/018/930/587/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn" class="social-logo">
+      </a>
+      <a href="https://github.com/xaliferi" target="_blank">
+          <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="GitHub" class="social-logo">
+      </a>
+  </div>
+</div>
+
+    <script>
+      function scrollToElement(selector) {
+          var element = document.querySelector(selector);
+          if (element) {
+              element.scrollIntoView({ behavior: 'smooth' });
+          }
+      }
+      </script>
+</body>
+
+</html>
