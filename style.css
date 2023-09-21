@@ -275,8 +275,24 @@ body {
   background-color: #555;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .contact-column {
       width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skills-interests-container {
+      flex-direction: column;
+  }
+
+  .skills, .interests {
+      margin: 10px 0;
+      width: 100%;
+  }
+
+  .about-section img {
+      width: 100%;
+      margin: 20px 0;
   }
 }
